@@ -44,7 +44,7 @@ class Person:
         return current_year - self.birth_year
 
 
-p = Person("Gopal", "India", 2000)
+p = Person("Vyankatesh Shelke", "India", 2000)
 
 print("Name:", p.name)
 print("Country:", p.country)
@@ -419,7 +419,7 @@ class BankAccount:
 
 
 # Creating object
-acc = BankAccount(101, "Gopal", 10000)
+acc = BankAccount(101, "Vyankatesh Shelke", 10000)
 
 acc.display()
 
@@ -539,7 +539,7 @@ class Instructor:
 
 # Creating objects
 inst1 = Instructor()
-inst1.set_details("Gopal", ["Python", "Java", "SQL"], 4, 4.6)
+inst1.set_details("Vyankatesh Shelke", ["Python", "Java", "SQL"], 4, 4.6)
 
 inst2 = Instructor()
 inst2.set_details("Rahul", ["C", "Java"], 2, 3.8)
@@ -895,7 +895,7 @@ class BankAccount:
 
 
 # create object
-acc = BankAccount("12345", "Gopal", 10000, "10-04-2024")
+acc = BankAccount("12345", "Vyankatesh Shelke", 10000, "10-04-2024")
 
 print("Account Number:", acc.account_number)
 print("Customer Name:", acc.customer_name)
